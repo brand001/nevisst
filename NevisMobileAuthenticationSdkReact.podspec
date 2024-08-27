@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
 	s.dependency "NevisMobileAuthentication-Debug", '~> 3.5.0'
 
 	printf( "New architecture for the React Native Module is: %s\n", ENV['RCT_NEW_ARCH_ENABLED'] == '1' ? "enabled" : "disabled")
-	install_modules_dependencies(s)
+	# install_modules_dependencies(s)
 end
